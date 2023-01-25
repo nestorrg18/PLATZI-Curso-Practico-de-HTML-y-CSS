@@ -12,21 +12,44 @@ ul {
     display: flex;
 }
 li {
-    list-style: none;
+    /* list-style: none; */
     padding: 16px;
 }
 a{
     text-decoration: none;
-    color: black;
 }
-a:visited {
-    color: black;
-}
+
 header {
     height: 10vh;
+    width: 100%;
 }
-header ul{
+header nav {
+    display: flex;
     justify-content: flex-end;
+}
+header nav .nav-right-section {
+    width: auto;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    background-color: aqua;
+}
+
+nav .nav-right-section a {
+    /* margin-right: 10px; */
+    color: #000000;
+}
+nav .nav-right-section .menu-icon {
+    background-image: url("https://static.thenounproject.com/png/756729-200.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+}
+nav .nav-right-section img {
+    border-radius: 50%;
 }
 .sign-up {
     /* background-color: rgb(39, 132, 255); */
@@ -45,7 +68,7 @@ main section {
     border-radius: 30px;
     width: 50vw;
 }
-nav ul {
+#Buscador nav ul {
     display: flex;
     justify-content: space-between;
 }
