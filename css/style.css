@@ -18,7 +18,6 @@ li {
 a{
     text-decoration: none;
 }
-
 header {
     height: 10vh;
     width: 100%;
@@ -35,7 +34,6 @@ header nav .nav-right-section {
     list-style: none;
     background-color: aqua;
 }
-
 nav .nav-right-section a {
     /* margin-right: 10px; */
     color: #000000;
@@ -56,32 +54,86 @@ nav .nav-right-section img {
     border: 0;
     border-radius: 15px;
 }
-main section {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 80vh;
+main {
+    margin-top: 150px;
+    text-align: center;
 }
-#Buscador nav {
-    border: 2px solid grey;
-    border-radius: 30px;
-    width: 50vw;
+main .main-logo {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
 }
-#Buscador nav ul {
+main .main-logo img {
+    width: 300px;
+}
+main .main-input {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+main .main-input-container {
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid #dfe1e5;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+main .main-input input {
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+main .main-input-container:hover {
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
+}
+main .main-input-container .search-icon {
+    background-image: url("https://img.icons8.com/android/24/000000/search.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    margin-left: 8px;
+}
+main .main-input-container .micro-icon {
+    background-image: url("https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 22px;
+    height: 22px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+main .main-buttons {
+    width: 530px;
+    margin: 0 auto;
+}
+main .main-buttons div {
+    display: inline-block;
+}
+main .main-buttons button {
+    height: 36px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    font-size: 14px;
+    color: #5f6368;
+    border-radius: 5px;
+    padding: 0 15px;
+    margin-right: 15px;
+}
+main .main-buttons button:hover {
+    border: 1px solid #c6c6c6;
+    box-shadow: 0px 1px 1px rgba(0,0,0,0.1);
+    color: #222;
+    background-color: #f8f8f8;
+    cursor: pointer;
 }
 
-button {
-    margin: 20px;
-    height: 50px;
-    width: 200px;
-    background-color: rgb(233, 233, 233);
-    color: rgb(49, 49, 49);
-    border: 0;
-    border-radius: 10px;
-}
+/*  */
 footer {
     display: flex;
     justify-content: space-between;
