@@ -7,14 +7,6 @@ html {
     font-size: 100.5%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
-ul {
-    display: flex;
-}
-li {
-    /* list-style: none; */
-    padding: 16px;
-}
 a{
     text-decoration: none;
 }
@@ -25,18 +17,21 @@ header {
 header nav {
     display: flex;
     justify-content: flex-end;
-}
+} 
 header nav .nav-right-section {
+    display: flex;
     width: auto;
     height: auto;
     justify-content: center;
     align-items: center;
     list-style: none;
-    background-color: aqua;
 }
 nav .nav-right-section a {
     /* margin-right: 10px; */
     color: #000000;
+}
+nav .nav-right-section li {
+    padding: 8px 16px;
 }
 nav .nav-right-section .menu-icon {
     background-image: url("https://static.thenounproject.com/png/756729-200.png");
@@ -133,9 +128,31 @@ main .main-buttons button:hover {
     cursor: pointer;
 }
 
-/*  */
 footer {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 13px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+footer ul {
+    margin: 10px;
+    list-style: none;
     display: flex;
-    justify-content: space-between;
-    height: 10vh;
+    padding-left: 0;
+}
+footer .footer-left {
+    justify-self: left;
+}
+footer .footer-right {
+    justify-self:right;
+}
+footer ul li a {
+    margin: 10px;
+    color: #5f6368;
 }
