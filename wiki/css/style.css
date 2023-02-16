@@ -1,0 +1,212 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+main {
+    font-size: 1.6rem;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Lato,Helvetica,Arial,sans-serif;
+}
+button {
+    cursor: pointer;
+    font: inherit;
+}
+.title {
+    font-family: 'Linux Libertine', serif;
+
+    position: relative;
+    margin: 4rem auto 1rem;
+    width: 270px;
+    text-align: center;
+}
+.title h1 {
+    font-size: 2.6rem;
+    font-weight: normal;
+}
+.title h1 span {
+    font-size: 3.6rem;
+}
+.title p {
+    font-size: 1.6rem;
+}
+.title img {
+    width: 20rem;
+    height: 18.3rem;
+    position: absolute;
+    top: 12.8rem;
+    left: 3.5rem;
+}
+.idiomas {
+    position: relative;
+    height: 32.5rem;
+    width: 54.6rem;
+    margin: 0 auto;
+}
+.contenedor-idioma {
+    position: absolute;
+    width: 15.6rem;
+    text-align: center;
+}
+.contenedor-idioma a {
+    color: #36c ;
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+.contenedor-idioma a~p {
+    color: #54595d;
+    font-size: 1.3rem;
+}
+.idioma1 {
+    top: 0;
+    right: 60%;
+}
+.idioma2{
+    top: 0;
+    left: 60%;
+}
+.idioma3{
+    top: 20%;
+    right: 70%;
+}
+.idioma4{
+    top: 20%;
+    left: 70%;
+}
+.idioma5{
+    top: 40%;
+    right: 72%;
+}
+.idioma6{
+    top: 40%;
+    left: 72%;
+}
+.idioma7{
+    top: 60%;
+    right: 70%;
+}
+.idioma8{
+    top: 60%;
+    left: 70%;
+}
+.idioma9{
+    top: 80%;
+    right: 60%;
+}
+.idioma10{
+    top: 80%;
+    left: 60%;
+}
+/*  */
+.search-container {
+    float: none;
+    max-width: 95%;
+    width: 540px;
+    margin: 0.4rem auto 1.95rem;
+    text-align: center;
+    vertical-align: middle;
+}
+.search-container .input-container {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 3.5rem;
+    width: 90%;
+    height: 4.4rem;
+}
+.input-container .input {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-radius: 2px 0 0 2px;
+}
+.input-container .input input {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #a2a9b1;
+    outline: transparent;
+    padding: 0 5.2rem 0 1.2rem;
+    font: inherit;
+}
+.input-container .input .select {
+    position: relative;
+}
+.input-container .input p {
+    position: absolute;
+    top: -11px;
+    right: 5px;
+    font-size: 1.4rem;
+    width: 40px;
+    height: 24px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    color: #54595d;
+    cursor: pointer;
+}
+.input-container .input input:focus {
+    border-color: #3366cc;
+    box-shadow: inset 0 0 0 1px #36c;
+}
+.input-container .input .picker-icon {
+    display: inline-block;
+    background-position: 0 -520px;
+    height: 8px;
+    width: 12px;
+}
+.input-container button {
+    width: 5rem;
+    height: 100%;
+    border: 1px solid transparent;
+    background-color: #3366cc;
+}
+.input-container .search-button-icon {
+    display: block;
+    background-position: 11px -696px;
+    width: 3.6rem;
+    height: 2.3rem;
+}
+.background-img {
+    background-image: url(https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-e99844f6.svg);
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
+/*  */
+.language-container {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem auto 4.8rem;
+}
+.language-container hr {
+    flex: 1 1;
+}
+.language-container button {
+    margin: 0 2rem;
+    padding: 0.6rem 1.2rem;
+    background-color: #f8f9fa;
+    font-size: 1.4rem;
+    border: 1px solid #a2a9b1;
+    border-radius: 2px;
+    color: #36c;
+    font-weight: 700;
+}
+.language-container .language-icon {
+    display: inline-block;
+    background-position: 0 -620px;
+    width: 25px;
+    height: 18px;
+    margin-right: 0.5em;
+}
+.language-container .picker-icon {
+    display: inline-block;
+    background-position: 0 -530px;
+    height: 8px;
+    width: 12px;
+    margin-left: 0.5em;
+}
+.separador-footer {
+    margin: 0.26rem 1.3rem;
+}
