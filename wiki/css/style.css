@@ -5,14 +5,22 @@
 }
 html {
     font-size: 62.5%;
+    line-height: 1.5;
 }
-main {
+body {
     font-size: 1.6rem;
     font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Lato,Helvetica,Arial,sans-serif;
 }
 button {
     cursor: pointer;
     font: inherit;
+}
+a {
+    color: #36c;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
 }
 .title {
     font-family: 'Linux Libertine', serif;
@@ -36,7 +44,7 @@ button {
     width: 20rem;
     height: 18.3rem;
     position: absolute;
-    top: 12.8rem;
+    top: 15.8rem;
     left: 3.5rem;
 }
 .idiomas {
@@ -49,6 +57,9 @@ button {
     position: absolute;
     width: 15.6rem;
     text-align: center;
+}
+.contenedor-idioma:hover {
+    background-color: #eaecf0;
 }
 .contenedor-idioma a {
     color: #36c ;
@@ -130,6 +141,9 @@ button {
     padding: 0 5.2rem 0 1.2rem;
     font: inherit;
 }
+.input-container .input input:hover {
+    border-color: #72777d;
+}
 .input-container .input .select {
     position: relative;
 }
@@ -171,6 +185,7 @@ button {
     background-image: url(https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-e99844f6.svg);
     background-repeat: no-repeat;
     vertical-align: middle;
+    display: inline-block;
 }
 /*  */
 .language-container {
@@ -209,4 +224,202 @@ button {
 }
 .separador-footer {
     margin: 0.26rem 1.3rem;
+}
+/* FOOTER */
+footer {
+    overflow: hidden;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 4.16rem 1.28rem 1.28rem;
+    font-size: 1.3rem;
+}
+.footer-sidebar {
+    width: 35%;
+    float: left;
+    clear: left;
+    margin-bottom: 3.2rem;
+    vertical-align: top;
+}
+.footer-sidebar-content {
+    position: relative;
+    max-width: 350px;
+    margin: 0 auto;
+}
+.footer-sidebar-content .footer-sidebar-icon {
+    position: absolute;
+    top: 0;
+    left: 8px;
+    left: 0.8rem;
+}
+.footer-sidebar-content .wikipedia-logo-black {
+    background-position: 0 -212px;
+    width: 42px;
+    height: 42px;
+}
+.footer-sidebar-content .footer-sidebar-text {
+    position: relative;
+    margin: 0;
+    padding-left: 6rem;
+    padding-right: 2rem;
+    color: #54595d;
+}
+.app-badges .footer-sidebar-content {
+    background-color: #f8f9fa;
+}
+.app-badges .footer-sidebar-text {
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+}
+.app-badges .footer-sidebar-text p {
+    margin: 1.3rem 0;
+}
+.app-badges .footer-sidebar-icon {
+    position: absolute;
+    top: 1.2rem;
+    left: 0.8rem;
+}
+.app-badges .wikipedia-app-tile {
+    background-position: 0 -719px;
+    width: 42px;
+    height: 42px;
+}
+.app-badges ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.app-badge {
+    display: inline-block;
+}
+.app-badge a {
+    color: transparent;
+}
+.android-badge {
+    background-position: 0 -541px;
+    width: 124px;
+    height: 38px;
+}
+.ios-badge {
+    background-position: 0 -579px;
+    width: 110px;
+    height: 38px;
+}
+.other-projects {
+    display: inline-block;
+    width: 65%;
+}
+.other-project {
+    float: left;
+    position: relative;
+    width: 33%;
+    height: 90px;
+    height: 9rem;
+}
+.other-project:hover {
+    background-color: #eaecf0;
+}
+.other-project-link {
+    display: inline-block;
+    min-height: 50px;
+    width: 90%;
+    padding: 1em;
+    white-space: nowrap;
+}
+.other-project-icon {
+    display: inline-block;
+    width: 50px;
+    text-align: center;
+}
+.other-project-text {
+    display: inline-block;
+    max-width: 65%;
+    font-size: 14px;
+    font-size: 1.4rem;
+    vertical-align: middle;
+    white-space: normal;
+}
+.other-project-title {
+    display: block;
+}
+.other-project-tagline {
+    color: #54595d;
+    font-size: 13px;
+    font-size: 1.3rem;
+}
+.other-project-icon .commons {
+    background-position: 0 0;
+    width: 47px;
+    height: 47px;
+}
+.other-project-icon .wikivoyage {
+    background-position: 0 -446px;
+    width: 36px;
+    height: 36px;
+}
+.other-project-icon .wiktionary {
+    background-position: 0 -482px;
+    width: 37px;
+    height: 37px;
+}
+.other-project-icon .wikibooks {
+    background-position: 0 -126px;
+    width: 37px;
+    height: 37px;
+}
+.other-project-icon .wikinews {
+    background-image: url(https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikinews-logo_sister.png);
+    background-position: 0 0;
+    background-size: 47px 26px;
+    width: 47px;
+    height: 26px;
+}
+.other-project-icon .wikidata {
+    background-position: 0 -163px;
+    width: 49px;
+    height: 49px;
+}
+.other-project-icon .wikiversity {
+    background-position: 0 -409px;
+    width: 43px;
+    height: 37px;
+}
+.other-project-icon .wikiquote {
+    background-position: 0 -286px;
+    width: 42px;
+    height: 42px;
+}
+.other-project-icon .mediaWiki {
+    background-position: 0 -47px;
+    width: 42px;
+    height: 42px;
+}
+.other-project-icon .wikisource {
+    background-position: 0 -328px;
+    width: 39px;
+    height: 39px;
+}
+.other-project-icon .wikispecies {
+    background-position: 0 -367px;
+    width: 42px;
+    height: 42px;
+}
+.other-project-icon .meta-Wiki {
+    background-position: 0 -89px;
+    width: 37px;
+    height: 37px;
+}
+/* LICENSE */
+.site-license {
+    color: #54595d;
+    text-align: center;
+    margin: 1.4rem 0;
+}
+.site-license small:after {
+    content: "\2022";
+    display: inline-block;
+    font-size: 13px;
+    font-size: 1.3rem;
+    line-height: inherit;
+    margin-left: 0.8rem;
+    margin-right: 0.5rem;
 }
